@@ -1,0 +1,108 @@
+.container{
+    background-image: linear-gradient(to left,white,rgb(240, 196, 209),rgb(250, 240, 196),rgb(194, 159, 159));
+    padding: 5px;
+    &.contenedordark{
+        background-image:linear-gradient(to left,rgb(68, 24, 37),rgb(83, 76, 47),rgb(235, 190, 190),white) ;
+        
+
+    }
+    
+    
+}
+
+span{
+    color: rgb(110, 93, 18);
+    &.contenedordark{
+        color: rgb(241, 216, 162);
+    }
+}
+.minibio{
+    margin:25px;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 25px;
+   
+    
+}
+
+.minibio img{
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 3px 6px rgb(223, 146, 182);
+    &.contenedordark{
+        box-shadow: 2px 3px 6px rgb(245, 223, 233);
+    }
+ 
+}
+.parrafo1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color:rgb(141, 57, 109);
+    &.contenedordark{
+        color:rgb(141, 19, 76);
+    }
+}
+.links{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.links a{
+    padding: 5px;
+    text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin:30px ;
+    text-decoration: none;
+    
+    color:rgb(126, 69, 102);
+    font-size: 26px;
+    background-image: url(http://2.bp.blogspot.com/-bFWvvKzBb3Q/UfopcOBsbpI/AAAAAAAAH0Y/fJamnhO-MKo/s1600/008a.jpg) ;
+    font-weight: bolder;
+
+    border-radius: 30px;
+    border:1px solid rgb(126, 69, 102) ;
+    &.contenedordark{
+        color:rgb(116, 82, 37);
+        border:1px solid rgb(105, 78, 34) ;
+        background-image: url(https://i1.wp.com/secure.static.tumblr.com/33373ee14992954e3b268cea0892b887/k6ebpdn/7XAn89t3e/tumblr_static_tumblr_static_94jko0444h8o8w840kcc8osos_640.jpg) ;
+    }
+    
+    
+    
+}
+.links a:hover{
+    background-image:url(http://2.bp.blogspot.com/-bFWvvKzBb3Q/UfopcOBsbpI/AAAAAAAAH0Y/fJamnhO-MKo/s1600/008a.jpg) ;
+    opacity:0.5;
+    &.contenedordark{
+        background-image:url(https://i1.wp.com/secure.static.tumblr.com/33373ee14992954e3b268cea0892b887/k6ebpdn/7XAn89t3e/tumblr_static_tumblr_static_94jko0444h8o8w840kcc8osos_640.jpg) ;
+    }
+   
+}
+.btn-change {
+    padding: 8px 24px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    .fas{
+        font-size: 24px;
+        color:white;
+    }
+ }
+ .btn-change:hover {
+    background-color: white;
+    .fas{
+        color:black;
+    }
+ }
+ 

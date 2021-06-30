@@ -1,0 +1,32 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="431570.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+<div class="container"  [class.contenedordark]="isNightMode">
+  <div class="minibio" [class.contenedordark]="isNightMode" >
+    <img [class.contenedordark]="isNightMode" src="https://assets.puzzlefactory.pl/puzzle/359/600/thumb.jpg" alt="" class="imagen">
+    <p class="parrafo1" [class.contenedordark]="isNightMode">Esta es una pequeña biografia de mi perfil 🎀,
+       </p>
+       <p class="parrafo1"  [class.contenedordark]="isNightMode">se siempre kawaii, ña~<span [class.contenedordark]="isNightMode" >ヾ(≧▽≦*)o</span> </p>
+       <div class="links" [class.contenedordark]="isNightMode">
+         <a [class.contenedordark]="isNightMode" href="https://vidaaiko.blogspot.com"   >BIOGRAFÍA</a>
+         <a [class.contenedordark]="isNightMode" href="https://trello.com/b/cPGnFcJ3/planes-del-día-y-metas-de-vida💻" >MIS METAS</a>
+         <a [class.contenedordark]="isNightMode" href="https://twitter.com/una_informatica">REDES KAWAIIS</a>
+         <a [class.contenedordark]="isNightMode" href="https://www.linkedin.com/in/conchi-barón-serrano-9764a9212/">LINKEDIN </a>
+       </div>
+  </div>
+  <button class="btn-change"(click)="darkMode()">
+    <i *ngIf="isNightMode"class="fas fa-sun"></i>
+    <i *ngIf="!isNightMode" class="fas fa-moon"></i>
+
+  </button>
+</div>
+
+
+
+<router-outlet></router-outlet>
